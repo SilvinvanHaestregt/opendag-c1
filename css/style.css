@@ -1,0 +1,154 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  max-width: 1024px;
+  margin: 0px auto;
+}
+
+/* .navbar{
+  display: flex;
+  justify-content: space-between;
+} */
+
+header{
+  padding: 25%;
+  background-image: url(../img/curio.jpg);
+  background-size: cover;
+  background-position: 0, -30px;
+}
+
+header img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 10%;
+  margin-left: 5%;
+}
+
+header nav{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 10%;
+  margin-right: 5%;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 5%;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 100px;
+  font-size: 1.5rem;
+  list-style: none;
+  margin-right: 5px;
+  font-family: Fellix,"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+header nav ul li a{
+  --color-primary: #ffffff;
+  --color-secondary: #000000;
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+/* Slide show */
+
+.slideshow-container{
+  position: relative;
+  background-color: white;
+}
+
+.mySlides{
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  /* background: ; */
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add a blue color to the author */
+.description {color: cornflowerblue; font-family: Fellix,'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;}
+
+
+/* Rooster */
+.rooster{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.rooster p{
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.docent{
+  display: inline;
+}
+
+/* .docent p{
+  text-align: center;
+} */
